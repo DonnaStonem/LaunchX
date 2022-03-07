@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color:#161d23;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.firstSection {
+    max-width: 1200px;
+    min-width: 200px;
+    height: 500px;
+    background-image: url('img/cake2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+h1 {
+    font-family: 'Sansita Swashed', cursive;
+    color: #C9619C;
+    font-size: 100px;
+}
+
+.secondSection {
+    padding: 20px;
+    text-align: center;
+    border: 3px solid rgb(116, 116, 202);
+    background-color: #161d23;
+    color: #C9619C;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+}
+.flavors {
+    border: 1px solid rgb(116, 116, 202);
+    padding: 40px;
+}
+
+.toppings {
+    border: 1px solid rgb(116, 116, 202);
+    padding: 40px;
+}
+
+.ordenar {
+    border: 3px solid rgb(116, 116, 202);
+    background-color: #161d23;
+    color: #C9619C;
+    padding: 20px;
+}
+main {
+    background-image: url('img/cake2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: #C9619C;
+}
+
+body {
+    font-size: 20px;    
+    background-color: #161d23;    
+}
