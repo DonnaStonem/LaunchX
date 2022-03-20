@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Titillium+Web:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    list-style: none;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+} 
+
+.block2 {
+    display: flex;
+}
+.block2 li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.first-section {
+    margin-left: 80px;
+    display: flex;
+}
+
+.f-text {
+    margin-top: 80px;
+    padding-right: 100px;
+    width: 50%;
+}
+.f-image{
+    background-image: url('img/doctor.jpg');
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 50px;
+    color: rgb(255, 184, 31);
+}
+
+.color {
+    color: rgb(255, 184, 31);
+    font-weight: 600;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.h3-color{
+    color: rgb(255, 184, 31);
+    font-weight: 600;
+    font-size: 20px;
+}
+.second-color {
+    color: rgb(247, 190, 68);
+    font-weight: 600;
+}
+.flex-space {
+    display: flex;
+    justify-content: space-around;
+}
+
+.space {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.spaces {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.logos {
+    width: 30%;
+}
+.second-section{
+    margin: 80px;
+    align-items: center;
+}
+
+.t-section {
+    margin-left: 40px;
+    width: 50%;
+    padding: 40px;
+}
+
+.grid-space {
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+
+.left-img{
+    background-image: url('img/vacuna.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+.right-text {
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-text ul {
+    padding: 10px;
+}
+.right-text li {
+    padding: 8px;
+}
+
+.five-section {
+    margin-left: 80px;
+    width: 45%;
+}
+
+.fiv-section {
+    margin-left: 80px;
+    width: 45%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    justify-content: space-between;
+}
+.contact {
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 100px;
+}
+
+.f-image{
+    background-image: url('img/doctor.jpg');
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+}
+.doctor2 {
+    background-image: url('img/doctor2.jpg');
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+
+.six-section {
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+}
+
+.vax{
+    width: 100px;
+}
+
+.info {
+    display: flex;
+    text-align: center;
+    margin-right: 60px;
+    align-items: center;
+}
+.info li {
+    margin: 15px;
+}
+
+.last {
+    margin: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
